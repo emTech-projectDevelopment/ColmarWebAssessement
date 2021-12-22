@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    z-index: 2;
+    background-color: #bdf1ee1f;
+}
+.card {
+    background-color: #bdf1ee33;
+
+}
+.nav-link,
+h4 {
+    color: rgb(117, 99, 99);
+    font-family: 'EB Garamond';
+    font-size: 1.5rem
+}
+.nav-link:hover {
+    color: gray;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px 2px silver;
+    border-radius: 15px;
+}
+
+#carImg {
+    position: relative;
+    transition: transform 650ms box-shadow 650ms;
+    border-radius: 10%;
+}
+#carImg:hover {
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px #d8d8d8;
+    transform: scale(1.58);
+}
+section {
+    margin-top: 5px;
+}
